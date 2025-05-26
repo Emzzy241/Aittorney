@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AIttorney - AI-Powered Legal Protection at Startup Speed  
+_Automated Legal Document Drafting for Startups & SMEs_
 
-## Getting Started
+## 🚀 Overview  
+AIttorney helps startups and small businesses generate legally sound documents in **minutes**, not days. With AI-driven contract drafting, compliance checks, and tailored legal protections, entrepreneurs can focus on growth while we handle the paperwork.
 
-First, run the development server:
+## 🔥 Features  
+✅ AI-generated **contracts & agreements**  
+✅ Instant **legal document customization**  
+✅ Startup-friendly **templates** with built-in protections  
+✅ Secure & compliant document management  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🎯 Getting Started  
+To start using AIttorney locally, follow these steps:  
+
+### **1️⃣ Install Dependencies**  
+Run the following command to install required dependencies:  
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **2️⃣ Start Development Server**  
+Run the Next.js development server with Turbopack for blazing-fast builds:
+```sh
+npm run dev
+```sh
+```
+Then, visit http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **3️⃣ Build for Production**
+When you're ready to deploy, build the project using:
+```sh
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To start the production server:
+```sh
+npm run start 
+or 
+npm start
+```
 
-## Learn More
+### **🛠 Tech Stack**
+* Framework: Next.js
 
-To learn more about Next.js, take a look at the following resources:
+* Styling: Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Bundler: Turbopack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Linting: ESLint
 
-## Deploy on Vercel
+* Language: TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **📌 Contributing**
+We welcome contributions! Please submit a pull request or report issues in our GitHub repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **🚀 Deploying AIttorney**
+The easiest way to deploy your AIttorney instance is via Vercel, ensuring high performance and scalability.
+
+### **📖 Learn More**
+Next.js Documentation
