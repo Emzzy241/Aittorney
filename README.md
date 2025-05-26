@@ -23,7 +23,6 @@ npm install
 Run the Next.js development server with Turbopack for blazing-fast builds:
 ```sh
 npm run dev
-```sh
 ```
 Then, visit http://localhost:3000 in your browser.
 
