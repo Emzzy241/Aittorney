@@ -1,6 +1,6 @@
 "use client"
 
-import Button from "./Button";
+import Button from "@/components/Button";
 import Image from "next/image";
 
 const HeroSection = () => {
@@ -23,7 +23,9 @@ const HeroSection = () => {
                 <h5 className="font-bold text-[1.2rem]">Get startup-friendly contracts, SAFE notes, and compliance docs--AI-generated, <br /> lawyer-reviewed, at 80% lower cost.</h5>
 
                 <input className="border p-3 mt-12 w-80 mr-10 rounded" type="email" name="" id="" placeholder="Enter email" />
-                <Button />
+                <Button 
+                  btnText = "Join Waitlist"
+                />
                 <p className="mt-2 md:ml-[-230]">First 50 Get Free Doc Review</p>
             </div>
 

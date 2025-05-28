@@ -14,7 +14,9 @@ const Nav = () => {
                 <li>Resources</li>
                 <li>Pricing</li>
             </ul>
-            <Button />
+            <Button 
+                btnText = "Login"
+            />
         </nav>
     );
 }
