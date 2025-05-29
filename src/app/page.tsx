@@ -6,7 +6,7 @@ import ContentSection from "@/components/ContentSection";
 export default function Home() {
   return (
     <main className="flex min h-screen flex-col bg-[#141414]">
-      <Nav />
+      
       <HeroSection />
       <ContentSection
         title="AI-Powered Legal Protection at Startup Speed"

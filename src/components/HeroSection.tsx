@@ -1,34 +1,49 @@
-"use client"
+"use client";
 
 import Button from "@/components/Button";
 import Image from "next/image";
+import Nav from "@/components/Nav";
 
 const HeroSection = () => {
     return (
-        <div className="hero">
-
-            <div className="rounded-full bg-[#181818] w-[500px]">
-            <Image
-              src="/images/goal.jpg"
-              alt="hero image"
-              className=""
-              width={300}
-              height={300}
-            />
-          </div>
-
-            <div className="content text-center text-white mt-0">
-                <h1 className="text-center fs-40 mb-4 text-6xl">Legal Docs for Startups & SMEs, <br /> Drafted by AI in Minutes</h1>
-                <p className="mb-4 text-[1rem]">Join us on this visionary expedition into the heart of AI.</p>
-                <h5 className="font-bold text-[1.2rem]">Get startup-friendly contracts, SAFE notes, and compliance docs--AI-generated, <br /> lawyer-reviewed, at 80% lower cost.</h5>
-
-                <input className="border p-3 mt-12 w-80 mr-10 rounded" type="email" name="" id="" placeholder="Enter email" />
-                <Button 
-                  btnText = "Join Waitlist"
+        <div className="relative w-full h-screen bg-[#181818] flex flex-col items-center justify-center text-white">
+            <Nav />
+            {/* Hero Background Image */}
+            <div className="absolute inset-0 w-full h-full overflow-hidden brightness-28">
+                <Image
+                    src="/images/BG.png"
+                    alt="Hero Image"
+                    layout="fill"
+                    objectFit="cover"
+                    className="opacity-80"
                 />
-                <p className="mt-2 md:ml-[-230]">First 50 Get Free Doc Review</p>
             </div>
 
+            {/* Hero Content */}
+            <div className="relative z-10 text-center p-6 max-w-3xl mt-60 mb-20">
+                <h1 className="text-5xl leading-tight">
+                    Legal Docs for Startups & SMEs, <br /> Drafted by AI in Minutes
+                </h1>
+                <p className="mt-4 text-base">
+                    Join us on this visionary expedition into the heart of  AI.
+                </p>
+                <h5 className="font-bold text-base mt-4">
+                    Get startup-friendly contracts, SAFE notes, and compliance docs—AI-generated, <br />
+                    lawyer-reviewed, at 80% lower cost.
+                </h5>
+
+                {/* Email & Button Section */}
+                <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <input 
+                        className="border-[#fff] p-3 w-80 rounded text-white border-white focus:outline-white"
+                        type="email" 
+                        placeholder="Enter email" 
+                    />
+                    <Button btnText="Join Waitlist" />
+                </div>
+
+                <p className="mt-2 md:mr-70 text-sm">First 50 Get Free Doc Review</p>
+            </div>
         </div>
     );
 }
