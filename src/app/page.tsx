@@ -2,6 +2,7 @@
 import Nav from "@/components/Nav";
 import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
+import CoreFeaturesSection from "@/components/CoreFeaturesSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         subtitle="Aittorney for Startups & SMEs"
       />
       {/* core features component */}
+      <CoreFeaturesSection />
       <ContentSection 
         title="Get investor-ready legal docs in 3 simple steps"
         subtitle="How it Works"
