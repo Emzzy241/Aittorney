@@ -3,6 +3,7 @@ import Nav from "@/components/Nav";
 import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
 import CoreFeaturesSection from "@/components/CoreFeaturesSection";
+import ToDoListSection from "@/components/ToDoListSection";
 
 export default function Home() {
   return (
@@ -19,11 +20,13 @@ export default function Home() {
         title="Get investor-ready legal docs in 3 simple steps"
         subtitle="How it Works"
       />
+      <ToDoListSection />
       {/* Submit your legal needs component */}
       <ContentSection 
         title="Legal Protection shouldn't break the bank"
         subtitle="Simple Pricing for Startups & SMEs"
       />
+
     </main>
   );
 }
