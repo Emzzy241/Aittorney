@@ -84,10 +84,7 @@ const ToDoListSection = () => {
                 <h4 className="text-white"> Submit Your Legal Needs </h4>
                 <p className="font-bold">AI Chatbot interview (2 mins)</p>
                 <div className="pt-4">
-                    {/* 
-                        Editable Templates - Customize clauses in plain English
-24/7 Support - AI Legal Assistant (Chat) 
-                    */}
+                    
                     <ul className="text-[16px]">
                         <li>Editable Templates - Customize clauses in plain <br /> English</li>
                         <li>24/7 Support - AI Legal Assistant (Chat)</li>
