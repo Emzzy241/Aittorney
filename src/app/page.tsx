@@ -31,7 +31,7 @@ export default function Home() {
       <SpecialSection />
       <ContentSection
         title="500+ startups saved $3.8M+ in legal fees last quarter"
-        subtitle="What is said about Aittorney"
+        subtitle="What Is Said About AIttorney"
       />
 
     </main>

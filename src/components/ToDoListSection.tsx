@@ -11,7 +11,7 @@ import { LiHTMLAttributes } from "react";
 const ToDoListSection = () => {
     return (
         <div className="steps p-2 grid grid-cols-3">
-            <div className="step1 p-10 w-11/12">
+            <div className="step1 p-10 w-11/12 border-[#262626]">
                 <i>
                     <img src="/images/icon.png" alt="" />
                 </i>
