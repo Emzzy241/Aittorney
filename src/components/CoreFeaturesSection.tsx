@@ -1,4 +1,3 @@
-// Alright, here I have 2 extra sections under this section
 "use client";
 
 import Button from "@/components/Button";
@@ -6,23 +5,27 @@ import Card from "@/components/Card";
 
 const CoreFeaturesSection = () => {
     return (
-        <div className="features outline-[#fff] width-full grid md:grid-cols-2 gap-60 p-4 h-full w-full mb-20 mt-20">
-            <div className="feature1 border-[#fff] md:pt-40 md:pl-30 w-5/12">
-                {/* A logo image I will get later*/}
-                <i>
-                    <img src="/images/icon-1.png" alt="" />
-                </i>
-                <br />
-                <h3 className="text-white text-2xl w-40 mb-5 ">Core Features</h3>
-                < Button
-                    btnText="See Sample Docs"
-                />
+        <div className="w-full grid md:grid-cols-2 gap-10 p-14 md:h-full w-full md:mb-20 ">
+            
+            {/* Left Column - Text & Button */}
+            <div className="feature1 text-white flex flex-col justify-center items-start px-6">
+                {/* Placeholder for Logo */}
+                <img src="/images/icon-1.png" alt="Feature Icon" className="w-16 mb-6" />
+                
+                <h3 className="text-4xl font-bold mb-4">Core Features</h3>
+
+                <p className="text-lg text-gray-400 mb-6 max-w-md">
+                    AI-powered legal protection designed for startups and SMEs.
+                </p>
+
+                <Button btnText="See Sample Docs" />
             </div>
 
-            <div className="feature2  cards grid grid-rows-2 grid-cols-2 gap-5 justify-between w-40">
+            {/* Right Column - Cards Section */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl">
                 <Card
                     header="Instant Legal Document Generation"
-                    paragraph="Draft founder agreements, SAFE notes, and compliance docs in minutes--not days."
+                    paragraph="Draft founder agreements, SAFE notes, and compliance docs in minutes—not days."
                 />
                 <Card
                     header="Startup-Specialized AI"
@@ -34,11 +37,14 @@ const CoreFeaturesSection = () => {
                 />
                 <Card
                     header="24/7 Legal Assistant"
-                    paragraph="Draft founder agreements, SAFE notes, and compliance docs in minutes—not days."
+                    paragraph="AI-powered support for all legal questions and documents."
                 />
             </div>
         </div>
     );
-}
+};
 
 export default CoreFeaturesSection;
+
+
+// 

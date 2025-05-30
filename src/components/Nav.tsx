@@ -13,14 +13,12 @@ const Nav = () => {
                 AITTORNEY
             </div>
 
-            {/* Desktop Navigation */}
             <ul className="hidden md:flex space-x-10 text-center">
                 <li className="hover:text-gray-400 cursor-pointer">How it Works</li>
                 <li className="hover:text-gray-400 cursor-pointer">Resources</li>
                 <li className="hover:text-gray-400 cursor-pointer">Pricing</li>
             </ul>
 
-            {/* Mobile Menu Button */}
             <button 
                 className="md:hidden text-white focus:outline-none pr-6 cursor-pointer"
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -28,7 +26,6 @@ const Nav = () => {
                 {menuOpen ? "✖" : "☰"}
             </button>
 
-            {/* Mobile Menu */}
             {menuOpen && (
                 <ul className="absolute top-full left-1/2 transform -translate-x-1/2 bg-gray-900 text-white p-4 rounded-lg w-[80%] flex flex-col items-center gap-4 shadow-md md:hidden">
                     <li className="hover:text-gray-400 cursor-pointer">How it Works</li>
@@ -38,7 +35,6 @@ const Nav = () => {
                 </ul>
             )}
 
-            {/* Desktop Button */}
             <div className="hidden md:block pr-6">
                 <Button btnText="Login" />
             </div>

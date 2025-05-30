@@ -1,102 +1,64 @@
-import { LiHTMLAttributes } from "react";
-
-// interface ToDoListSectionProps {
-//     heading1: string,
-//     paragraph1: string,
-//     heading2: string,
-//     paragraph2: LiHTMLAttributes<string>,
-
-// }
+"use client";
 
 const ToDoListSection = () => {
     return (
-        <div className="steps p-2 grid grid-cols-3">
-            <div className="step1 p-10 w-11/12 border-[#262626]">
-                <i>
-                    <img src="/images/icon.png" alt="" />
-                </i>
-                <br />
-                <h4 className="text-white text-[18px]"> Submit Your Legal Needs </h4>
-                <p className="font-bold">AI Chatbot interview (2 mins)</p>
-                <div className="pt-4">
-                    <ul className="text-[16px]">
-                        {/* 
-                         
-                          
+        <div className="steps w-full grid md:grid-cols-3 gap-8 p-10 md:p-16 text-white">
 
+            <div className="step1 bg-[#1A1A1A] border border-gray-700 p-8 rounded-lg shadow-lg flex flex-col items-start">
+                <img src="/images/icon.png" alt="Icon" className="w-12 mb-4" />
+                <h4 className="text-2xl font-bold mb-2">Submit Your Legal Needs</h4>
+                <p className="text-lg font-semibold text-gray-300">AI Chatbot Interview (2 mins)</p>
+                
 
-                         */}
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-400">
+                    <li>Tell us what you need: SAFE notes, contracts, compliance docs</li>
+                    <li>Startup-specific questions (e.g., Funding stage, jurisdiction)</li>
+                    <li>Upload Existing Docs (Optional for review/redlining)</li>
+                </ul>
 
-                        <li>Tell us what you need: SAFE notes, contracts, <br /> compliance docs</li>
-                        <li>Startup-specific questions (e.g., Funding stage, <br /> jurisdiction)</li>
-                        <li>Upload Existing Docs (Optional for review / <br /> redlining)</li>
-                    </ul>
-                </div>
-                <br />
-                <h4 className="text-white text-[18px]"> Example Topics We Cover:</h4>
-                <div>
-
-                    <ul className="text-[16px]">
-                        <li>Fundraising (SAFEs, Term Sheets)</li>
-                        <li>Hiring (Employment Contracts, NDAs)</li>
-                        <li>Compliance (GDPR, Delaware C-Corp)</li>
-                    </ul>
-                </div>
-
-            </div>
-            <div className="step2 p-10">
-                <i>
-                    <img src="/images/icon.png" alt="" />
-                </i>
-                <br />
-                <h4 className="text-white text-[18px]"> AI Generates Your Documents </h4>
-                <p className="font-bold">AI Chatbot interview (2 mins)</p>
-                <div className="pt-4">
-                    <ul className="text-[16px]">
-                        <li>Instant Drafting -  Powered by Claude 3 + Legal <br /> Databases</li>
-                        <li>Trained on 10,000+ startup legal templates YC, <br /> Techstars-approved</li>
-                        <li>Human Lawyer Review (Optional add-on for <br /> $99/doc)  </li>
-
-
-                    </ul>
-                </div>
-                <br />
-                <h4 className="text-white text-[18px]"> Output Formats:</h4>
-                <div>
-                    {/* 
-                        
-   
-
-                    */}
-
-                    <ul className="text-base">
-                        <li>📄 Google Docs</li>
-                        <li>📝 PDF</li>
-                        <li>⚖️ DocuSign-ready</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="step3 p-10">
-                <i>
-                    <img src="/images/icon.png" alt="" />
-                </i>
-                <br />
-                <h4 className="text-white"> Submit Your Legal Needs </h4>
-                <p className="font-bold">AI Chatbot interview (2 mins)</p>
-                <div className="pt-4">
-                    
-                    <ul className="text-[16px]">
-                        <li>Editable Templates - Customize clauses in plain <br /> English</li>
-                        <li>24/7 Support - AI Legal Assistant (Chat)</li>
-                        <li>Priority Lawyer Access (Paid plans)</li>
-                    </ul>
-                </div>
-                <br />
-               
+                <h4 className="text-xl font-bold mt-6">Example Topics We Cover:</h4>
+                <ul className="list-disc pl-6 mt-2 space-y-2 text-gray-400">
+                    <li>Fundraising (SAFEs, Term Sheets)</li>
+                    <li>Hiring (Employment Contracts, NDAs)</li>
+                    <li>Compliance (GDPR, Delaware C-Corp)</li>
+                </ul>
             </div>
 
+
+            <div className="step2 bg-[#1A1A1A] border border-gray-700 p-8 rounded-lg shadow-lg flex flex-col items-start">
+                <img src="/images/icon.png" alt="Icon" className="w-12 mb-4" />
+                <h4 className="text-2xl font-bold mb-2">AI Generates Your Documents</h4>
+                <p className="text-lg font-semibold text-gray-300">AI Chatbot Interview (2 mins)</p>
+                
+
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-400">
+                    <li>Instant Drafting - Powered by Claude 3 + Legal Databases</li>
+                    <li>Trained on 10,000+ startup legal templates YC, Techstars-approved</li>
+                    <li>Human Lawyer Review (Optional add-on for $99/doc)</li>
+                </ul>
+
+                <h4 className="text-xl font-bold mt-6">Output Formats:</h4>
+                <ul className="list-disc pl-6 mt-2 space-y-2 text-gray-400">
+                    <li>📄 Google Docs</li>
+                    <li>📝 PDF</li>
+                    <li>⚖️ DocuSign-ready</li>
+                </ul>
+            </div>
+
+
+            <div className="step3 bg-[#1A1A1A] border border-gray-700 p-8 rounded-lg shadow-lg flex flex-col items-start">
+                <img src="/images/icon.png" alt="Icon" className="w-12 mb-4" />
+                <h4 className="text-2xl font-bold mb-2">Customize & Support</h4>
+                <p className="text-lg font-semibold text-gray-300">AI Chatbot Interview (2 mins)</p>
+                
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-gray-400">
+                    <li>Editable Templates - Customize clauses in plain English</li>
+                    <li>24/7 Support - AI Legal Assistant (Chat)</li>
+                    <li>Priority Lawyer Access (Paid plans)</li>
+                </ul>
+            </div>
         </div>
     );
-}
+};
 
 export default ToDoListSection;
