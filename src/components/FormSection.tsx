@@ -75,7 +75,7 @@ const FormSection = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 rounded transition-all"
+          className="w-full bg-[#044FC7] hover:bg-[#063e97] text-white font-bold py-3 rounded transition-all cursor-pointer"
         >
           Join Waitlist
         </button>
