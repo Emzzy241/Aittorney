@@ -7,6 +7,8 @@ import ToDoListSection from "@/components/ToDoListSection";
 import SpecialSection from "@/components/SpecialSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import PricingSection from "@/components/PricingSection";
+import FAQSection from "@/components/FAQSection";
+import FormSection from "@/components/FormSection";
 
 export default function Home() {
   return (
@@ -37,11 +39,17 @@ export default function Home() {
         subtitle="What Is Said About AIttorney"
       />
       <ReviewsSection />
+      {/* <br />
       <br />
       <br />
-      <br />
-      <br />
+      <br /> */}
 
+      {/* The Everything you need to know section */}
+        <FAQSection />
+
+        {/* 30% off section */}
+
+        <FormSection />
     </main>
   );
 }
