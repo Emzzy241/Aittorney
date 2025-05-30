@@ -6,6 +6,7 @@ import CoreFeaturesSection from "@/components/CoreFeaturesSection";
 import ToDoListSection from "@/components/ToDoListSection";
 import SpecialSection from "@/components/SpecialSection";
 import ReviewsSection from "@/components/ReviewsSection";
+import PricingSection from "@/components/PricingSection";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         title="Legal Protection shouldn't break the bank"
         subtitle="Simple Pricing for Startups & SMEs"
       />
+      <PricingSection />
       {/* TODO: Plans, Price, Perfect for, Savings* section */}
       <SpecialSection />
       <ContentSection
