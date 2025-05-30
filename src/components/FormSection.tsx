@@ -3,13 +3,12 @@
 const FormSection = () => {
   return (
     <div className="w-full flex flex-col items-center text-white p-10 md:p-20">
-      {/* Form Header */}
+      
       <h2 className="text-3xl font-bold text-center mb-6">Join the Waitlist</h2>
       <p className="text-lg text-gray-400 text-center mb-12">
         500+ startups trusted us pre-launch - claim your spot! Get 30% Off Now.
       </p>
 
-      {/* Form Container */}
       <form className="w-full max-w-lg bg-[#1A1A1A] p-8 rounded-lg shadow-lg">
         <div className="mb-4">
           <label className="block text-gray-300 text-sm mb-2" htmlFor="fullName">
@@ -81,13 +80,11 @@ const FormSection = () => {
         </button>
       </form>
 
-      {/* Footer */}
       <div className="mt-6 text-sm text-gray-400">
         <a href="#" className="mr-4 hover:underline">Terms & Conditions</a>
         <a href="#" className="hover:underline">Privacy Policy</a>
       </div>
 
-      {/* Social Icons */}
       <div className="mt-4 flex space-x-4">
         <a href="#"><img src="/images/buttons-container.png" alt="Twitter" className="w-full" /></a>
       </div>

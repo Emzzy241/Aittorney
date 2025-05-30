@@ -32,7 +32,6 @@ const ReviewsSection = () => {
           key={index}
           className="review bg-[#1A1A1A] border border-[#262626] p-6 rounded-lg shadow-lg flex flex-col items-center transition-transform hover:scale-105"
         >
-          {/* Reviewer Info */}
           <div className="flex items-center space-x-4 mb-4">
             {review.iconSrc && (
               <img src={review.iconSrc} alt="Reviewer Icon" className="w-12 h-12" />
@@ -43,7 +42,6 @@ const ReviewsSection = () => {
             </div>
           </div>
 
-          {/* Review Content */}
           <div className="content text-white text-sm text-center bg-[#252525] p-6 rounded-md">
             <p>{review.content}</p>
           </div>
