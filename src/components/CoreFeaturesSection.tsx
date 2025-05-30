@@ -9,6 +9,10 @@ const CoreFeaturesSection = () => {
         <div className="features outline-[#fff] width-full grid md:grid-cols-2 gap-60 p-4 h-full w-full mb-20 mt-20">
             <div className="feature1 border-[#fff] md:pt-40 md:pl-30 w-5/12">
                 {/* A logo image I will get later*/}
+                <i>
+                    <img src="/images/icon-1.png" alt="" />
+                </i>
+                <br />
                 <h3 className="text-white text-2xl w-40 mb-5 ">Core Features</h3>
                 < Button
                     btnText="See Sample Docs"
