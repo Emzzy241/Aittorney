@@ -1,16 +1,7 @@
-import { LiHTMLAttributes } from "react";
-
-// interface ToDoListSectionProps {
-//     heading1: string,
-//     paragraph1: string,
-//     heading2: string,
-//     paragraph2: LiHTMLAttributes<string>,
-
-// }
 
 const ToDoListSection = () => {
     return (
-        <div className="steps p-2 grid grid-cols-3">
+        <div className="steps p-8 md:grid md:grid-cols-3">
             <div className="step1 p-10 w-11/12 border-[#262626]">
                 <i>
                     <img src="/images/icon.png" alt="" />
@@ -20,13 +11,6 @@ const ToDoListSection = () => {
                 <p className="font-bold">AI Chatbot interview (2 mins)</p>
                 <div className="pt-4">
                     <ul className="text-[16px]">
-                        {/* 
-                         
-                          
-
-
-                         */}
-
                         <li>Tell us what you need: SAFE notes, contracts, <br /> compliance docs</li>
                         <li>Startup-specific questions (e.g., Funding stage, <br /> jurisdiction)</li>
                         <li>Upload Existing Docs (Optional for review / <br /> redlining)</li>

@@ -24,10 +24,10 @@ const HeroSection = () => {
                 <h1 className="text-5xl leading-tight">
                     Legal Docs for Startups & SMEs, <br /> Drafted by AI in Minutes
                 </h1>
-                <p className="mt-4 text-base">
+                <p className="mt-4 md:text-base">
                     Join us on this visionary expedition into the heart of  AI.
                 </p>
-                <h5 className="font-bold text-base mt-4">
+                <h5 className="font-bold md:text-base mt-4">
                     Get startup-friendly contracts, SAFE notes, and compliance docs—AI-generated, <br />
                     lawyer-reviewed, at 80% lower cost.
                 </h5>

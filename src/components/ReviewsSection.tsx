@@ -2,7 +2,7 @@
 
 const ReviewsSection = () => {
     return (
-        <div className="reviews w-full grid grid-cols-3 gap-10 p-3 mb-24">
+        <div className="reviews w-full md:grid md:grid-cols-3 gap-10 p-3 mb-24">
             <div className="review ">
                     <img src="" alt="" />
                     <div className="text-container p-4 ml-24">

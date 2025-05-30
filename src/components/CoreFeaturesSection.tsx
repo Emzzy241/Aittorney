@@ -5,7 +5,7 @@ import Card from "@/components/Card";
 
 const CoreFeaturesSection = () => {
     return (
-        <div className="features grid md:grid-cols-2 gap-10 p-30 h-full w-full mb-20 mt-20">
+        <div className="features grid md:grid-cols-2 gap-10 p-30 h-full w-full md:mb-20 mt-20 mb-120">
             {/* Core Features Text Section */}
             <div className="feature1 text-white flex flex-col items-start">
                 {/* Placeholder for Logo */}
