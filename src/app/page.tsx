@@ -5,6 +5,7 @@ import ContentSection from "@/components/ContentSection";
 import CoreFeaturesSection from "@/components/CoreFeaturesSection";
 import ToDoListSection from "@/components/ToDoListSection";
 import SpecialSection from "@/components/SpecialSection";
+import ReviewsSection from "@/components/ReviewsSection";
 
 export default function Home() {
   return (
@@ -33,6 +34,11 @@ export default function Home() {
         title="500+ startups saved $3.8M+ in legal fees last quarter"
         subtitle="What Is Said About AIttorney"
       />
+      <ReviewsSection />
+      <br />
+      <br />
+      <br />
+      <br />
 
     </main>
   );
