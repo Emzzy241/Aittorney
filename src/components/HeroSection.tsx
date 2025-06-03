@@ -10,7 +10,7 @@ const HeroSection = () => {
             <Nav />
             <div className="absolute inset-0 w-full h-full overflow-hidden brightness-28">
                 <Image
-                    src="/images/BG.png"
+                    src="/images/BG.svg"
                     alt="Hero Image"
                     layout="fill"
                     objectFit="cover"

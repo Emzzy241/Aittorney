@@ -86,7 +86,7 @@ const FormSection = () => {
       </div>
 
       <div className="mt-4 flex space-x-4">
-        <a href="#"><img src="/images/buttons-container.png" alt="Twitter" className="w-full" /></a>
+        <a href="#"><img src="/images/buttons-container.svg" alt="Twitter" className="w-full" /></a>
       </div>
 
       <p className="mt-4 text-xs text-gray-500">© 2025 AITTORNEY. All rights reserved.</p>

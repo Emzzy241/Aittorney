@@ -6,21 +6,21 @@ const reviews = [
     title: "Founder, Seed AI (YC S25)",
     content:
       "AIttorney drafted our SAFE note in 20 minutes—identical to what our $15k lawyer delivered last round. Just added a few custom terms and sent to investors.",
-    iconSrc: "/images/profile.png",
+    iconSrc: "/images/profile.svg",
   },
   {
     name: "Emily T.",
     title: "CEO, RemoteLabs",
     content:
       "Hired 5 engineers across 3 countries using AIttorney's employment contracts. Zero legal back-and-forth, just plug-and-play compliance.",
-    iconSrc: "/images/profile-1.png",
+    iconSrc: "/images/profile-2.svg",
   },
   {
     name: "James L.",
     title: "CTO, DeepRender",
     content:
       "Used the $99 lawyer review add-on for our Series A term sheet. Spotted 3 risky clauses our own counsel missed!",
-    iconSrc: "/images/profile-2.png",
+    iconSrc: "/images/profile-3.svg",
   },
 ];
 
