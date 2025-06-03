@@ -1,5 +1,7 @@
 "use client";
 
+import Image from 'next/image';
+
 const reviews = [
   {
     name: "Mark R.",
@@ -34,7 +36,7 @@ const ReviewsSection = () => {
         >
           <div className="flex items-center space-x-4 mb-4">
             {review.iconSrc && (
-              <img src={review.iconSrc} alt="Reviewer Icon" className="w-12 h-12" />
+              <Image src={review.iconSrc} alt="Reviewer Icon" className="w-12 h-12" width={48} height={48} />
             )}
             <div className="text-container text-center text-white">
               <h4 className="text-lg font-bold">{review.name}</h4>

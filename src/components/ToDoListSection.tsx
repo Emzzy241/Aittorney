@@ -1,11 +1,13 @@
 "use client";
 
+import Image from 'next/image';
+
 const ToDoListSection = () => {
     return (
         <div className="steps w-full grid md:grid-cols-3 gap-8 p-10 md:p-16 text-white">
 
             <div className="step1 bg-[#1A1A1A] border border-gray-700 p-8 rounded-lg shadow-lg flex flex-col items-start">
-                <img src="/images/icon-2.svg" alt="Icon" className="w-12 mb-4" />
+                <Image src="/images/icon-2.svg" alt="Icon" className="w-12 mb-4" width={48} height={48}  />
                 <h4 className="text-2xl font-bold mb-2">Submit Your Legal Needs</h4>
                 <p className="text-lg font-semibold text-gray-300">AI Chatbot Interview (2 mins)</p>
                 
@@ -26,7 +28,7 @@ const ToDoListSection = () => {
 
 
             <div className="step2 bg-[#1A1A1A] border border-gray-700 p-8 rounded-lg shadow-lg flex flex-col items-start">
-                <img src="/images/icon-2.svg" alt="Icon" className="w-12 mb-4" />
+                <Image src="/images/icon-2.svg" alt="Icon" className="w-12 h-12 mb-4" width={48} height={48} />
                 <h4 className="text-2xl font-bold mb-2">AI Generates Your Documents</h4>
                 <p className="text-lg font-semibold text-gray-300">AI Chatbot Interview (2 mins)</p>
                 
@@ -47,7 +49,7 @@ const ToDoListSection = () => {
 
 
             <div className="step3 bg-[#1A1A1A] border border-gray-700 p-8 rounded-lg shadow-lg flex flex-col items-start">
-                <img src="/images/icon-2.svg" alt="Icon" className="w-12 mb-4" />
+                <Image src="/images/icon-2.svg" alt="Icon" className="w-12 mb-4" width={48} height={48} />
                 <h4 className="text-2xl font-bold mb-2">Customize & Support</h4>
                 <p className="text-lg font-semibold text-gray-300">AI Chatbot Interview (2 mins)</p>
                 
