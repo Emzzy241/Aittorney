@@ -18,8 +18,6 @@ const CoreFeaturesSection = () => {
                     AI-powered legal protection designed for startups and SMEs.
                 </p>
 
-                
-
                 <Button btnText="See Sample Docs" />
             </div>
 

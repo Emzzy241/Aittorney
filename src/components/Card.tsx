@@ -1,11 +1,12 @@
 "use client";
 
 interface CardProps {
+  iconSrc?: string;
   header: string;
   paragraph: string;
 }
 
-const Card = ({ header, paragraph }: CardProps) => {
+const Card = ({ iconSrc, header, paragraph }: CardProps) => {
   return (
     <div className="w-full bg-[#252525] text-white p-8  rounded-xl border border-gray-700 shadow-lg md:flex md:flex-col text-left transition-transform hover:scale-105">
       {/* Header */}
